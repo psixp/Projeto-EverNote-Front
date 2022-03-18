@@ -2,12 +2,12 @@ import React from 'react';
 import "./App.scss";
 import { Notification, Section } from 'rbx';
 import { Fragment } from 'react';
-import HomeScreen from './screens/home';
+import Router from './routes';
 
 
 const App = () => (
     <Fragment>
-      <HomeScreen/>
+      <Router/>
     </Fragment>
 )
 
